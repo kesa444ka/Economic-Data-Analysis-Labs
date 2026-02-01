@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd 
+
 
 def histogram(data, n_bins):
     data.hist(bins=n_bins, figsize=(20, 20), 
